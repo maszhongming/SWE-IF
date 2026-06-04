@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use SWE-IF, please cite the paper below."
+title: "SWE-IF: Aligning Code Evaluation with Human Preference"
+authors:
+  - { family-names: Zhong, given-names: Ming }
+  - { family-names: Zhou, given-names: Xiang }
+  - { family-names: Chang, given-names: Ting-Yun }
+  - { family-names: Wang, given-names: Qingze }
+  - { family-names: Xu, given-names: Nan }
+  - { family-names: Si, given-names: Xiance }
+  - { family-names: Garrette, given-names: Dan }
+  - { family-names: Upadhyay, given-names: Shyam }
+  - { family-names: Liu, given-names: Jeremiah }
+  - { family-names: Han, given-names: Jiawei }
+  - { family-names: Schillings, given-names: Benoit }
+  - { family-names: Sun, given-names: Jiao }
+identifiers:
+  - type: other
+    value: "arXiv:2510.07315"
+    description: arXiv preprint
+preferred-citation:
+  type: conference-paper
+  title: "SWE-IF: Aligning Code Evaluation with Human Preference"
+  year: 2026
+  collection-title: "International Conference on Machine Learning (ICML)"
+  authors:
+    - { family-names: Zhong, given-names: Ming }
+    - { family-names: Zhou, given-names: Xiang }
+    - { family-names: Chang, given-names: Ting-Yun }
+    - { family-names: Wang, given-names: Qingze }
+    - { family-names: Xu, given-names: Nan }
+    - { family-names: Si, given-names: Xiance }
+    - { family-names: Garrette, given-names: Dan }
+    - { family-names: Upadhyay, given-names: Shyam }
+    - { family-names: Liu, given-names: Jeremiah }
+    - { family-names: Han, given-names: Jiawei }
+    - { family-names: Schillings, given-names: Benoit }
+    - { family-names: Sun, given-names: Jiao }

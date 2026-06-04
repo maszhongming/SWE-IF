@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ruff_cache/
+build/
+dist/
+.venv/
+
+# OS / editors
+.DS_Store
+.ipynb_checkpoints/
+
+# Local data & generation outputs — load from the HuggingFace dataset
+# (MingZhong/SWE-IF) instead; only the small scores/ CSVs are committed.
+data/
+results/
+figures/
+figures_pdf/
+*.tar.gz

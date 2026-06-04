@@ -1,0 +1,24 @@
+# Core scientific stack
+pandas==2.2.3
+numpy==2.2.6
+scipy==1.15.3
+
+# Data loading — SWE-IF benchmarks + the VeriCode taxonomy live on HuggingFace
+datasets>=2.16.0
+huggingface_hub>=0.20.0
+
+# LLM provider SDKs (only needed to (re)augment / generate, not to load data)
+google-genai            # Gemini via Vertex AI (code uses `from google import genai`)
+anthropic==0.57.1       # Claude via AnthropicVertex
+mistralai==1.9.1        # Mistral via MistralGoogleCloud
+requests==2.32.4        # OpenRouter REST API
+
+# Evaluation
+gradio_client==1.10.2   # BigCodeBench functional eval (remote HF Space)
+ruff==0.11.13           # instruction verifiers (pinned — verifier behavior is version-sensitive)
+
+# Utilities & plotting
+tqdm==4.67.1
+prettytable==3.16.0
+matplotlib==3.10.3
+seaborn==0.13.2
